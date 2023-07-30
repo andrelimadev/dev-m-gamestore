@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header, footer {
+    width: 100%;
+    height: 40px;
+    background-color: #5700CB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header img {
+    height: 15px;
+    padding: 0px 5px;
+}
+
+header h1 {
+    font-size: 16px;
+}
+
+span {
+    font-weight: lighter;
+}
+
+.primeira-secao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.primeira-secao img {
+    width: 100%;
+    max-width: 100vw;
+}
+
+h1 {
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.limita-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.segunda-secao h2, .terceira-secao h2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.segunda-secao p, .terceira-secao p {
+    line-height: 30px;
+}
+
+.segunda-secao p:last-of-type {
+    display: inline;
+    background-color: #9154e3;
+    padding: 10px 5px;
+}
+
+table {
+    margin: 25px 0px;
+    width: 100%;
+    background-color: #dfdfdf;
+    color: white;
+}
+
+thead {
+    background-color: #5a5a5a;
+}
+
+th, td {
+    padding: 6px;
+}
+
+tbody tr:nth-last-of-type(odd) {
+    background-color: #5700cb;
+}
+
+tbody tr:nth-last-of-type(even) {
+    background-color: #9154e3;
+}
